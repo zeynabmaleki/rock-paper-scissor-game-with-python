@@ -3,8 +3,9 @@ import random
 print("Welcome to the game!")
 
 
-all_choices = ("r", "s", "p")
+
 emoji = {"r": "🥌", "p": "📃", "s": "✂"}
+all_choices = tuple(emoji.keys())
 
 
 def get_users_choice():
